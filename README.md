@@ -1,2 +1,2 @@
 # bench-for-donch
-This is a NN-benchmark w.r.t. performance created in order to investigate PyTorch-based models are trained on different devices.
+This is a NN-benchmark w.r.t. performance created in order to investigate how fast PyTorch-based models are trained on different devices.
