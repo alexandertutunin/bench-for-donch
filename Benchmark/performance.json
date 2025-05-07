@@ -1,0 +1,50 @@
+[
+    {
+        "device": "NVIDIA GeForce GTX 1660 Ti with Max-Q Design",
+        "ep/s": 0.0365151058799856,
+        "s/ep": 27.3859263420105,
+        "total_epochs": 10
+    },
+    {
+        "device": "NVIDIA GeForce GTX 1660 Ti with Max-Q Design(dataset on GPU)",
+        "ep/s": 0.06005496879329562,
+        "s/ep": 16.651411533355713,
+        "total_epochs": 10
+    },
+    {
+        "device": "AMD Ryzen 7 4800H with Radeon Graphics | 16 threads",
+        "ep/s": 0.002899934060044007,
+        "s/ep": 344.83542704582214,
+        "total_epochs": 1
+    },
+    {
+        "device": "Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz | 8 threads",
+        "ep/s": 0.002831412172130882,
+        "s/ep": 353.18065304756163,
+        "total_epochs": 10
+    },
+    {
+        "device": "NVIDIA GeForce GTX 1050",
+        "ep/s": 0.025906791133216076,
+        "s/ep": 38.599917483329776,
+        "total_epochs": 10
+    },
+    {
+        "device": "NVIDIA RTX A5000(dataset on GPU)",
+        "ep/s": 0.12296584769393036,
+        "s/ep": 8.132339334487915,
+        "total_epochs": 10
+    },
+    {
+        "device": "NVIDIA RTX A5000",
+        "ep/s": 0.0833200088590124,
+        "s/ep": 12.001919031143188,
+        "total_epochs": 10
+    },
+    {
+        "device": "12th Gen Intel(R) Core(TM) i9-12900K | 24 threads",
+        "ep/s": 0.0025492122845614854,
+        "s/ep": 392.27804057598115,
+        "total_epochs": 10
+    }
+]
