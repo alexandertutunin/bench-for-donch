@@ -1,28 +1,5 @@
 from torch import nn
 
-class MLPwithLN(nn.Module):
-    def __init__(self, hidden_size, output_size):
-        super().__init__()
-        
-        self.fc = nn.Sequential(
-            nn.Linear(hidden_size, hidden_size // 2),
-            nn.LayerNorm(hidden_size // 2),
-            nn.ReLU(),
-
-            nn.Linear(hidden_size // 2, hidden_size // 4),
-            nn.LayerNorm(hidden_size // 4),
-            nn.ReLU(),
-
-            nn.Linear(hidden_size // 4, hidden_size // 8),
-            nn.LayerNorm(hidden_size // 8),
-            nn.ReLU(),
-
-            nn.Linear(hidden_size // 8, output_size)
-        )
-        
-    def forward(self, x):  # x: [B, T, H]
-        return self.fc(x)
-    
 class MLP(nn.Module):
     def __init__(self, hidden_size, output_size):
         super().__init__()

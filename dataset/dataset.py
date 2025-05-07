@@ -4,14 +4,15 @@ import joblib
 from utils import Decomposer
 import torch
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def load(
         train=True,
         normalize=True,
         astorch = False
         ):
-    dataset_root_path=r""
-    if not os.path.exists(dataset_root_path):
-        dataset_root_path=r""
+    
+    dataset_root_path=BASE_DIR
         
     if train:
         data_train = joblib.load(dataset_root_path + "/train/data-multi-train-fixed.joblib")
